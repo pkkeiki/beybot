@@ -68,7 +68,7 @@ ComfyJS.onChat = (user, message, flags, self, extra) => {
 };
 
 const generateTitle = {
-  yo: " is hype!",
+  yo: " is lurking!",
   welcome: " needs a welcome!",
   pizza: " needed a pizza party!",
   music: " stopped the music!"
