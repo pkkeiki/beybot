@@ -13,7 +13,7 @@ const pewAudio = new Audio("horn.wav");
 const magicChime = new Audio("Magic_Chime.mp3");
 
 /* GIFs */
-const lurkGif = "https://media.tenor.com/images/cae8b741f19112265ede8e47901c3d00/tenor.gif";
+const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
 const welcomeGif = "https://media.giphy.com/media/l3V0doGbp2EDaLHJC/giphy.gif";
 const pizzaGif = "https://media.giphy.com/media/3o6nUXaNE4wdhq8Foc/giphy.gif";
 
