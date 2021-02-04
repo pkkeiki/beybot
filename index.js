@@ -32,7 +32,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   console.log(`!${command} was typed in chat`);
 
   if (command == "lurk") {
-    new gifAlert(user, lurkGif, pewAudio, command);
+    new gifAlert(user, lurkGif, magicChime, command);
   }
 
   if (command == "welcome") {
