@@ -13,7 +13,7 @@ const pewAudio = new Audio("horn.wav");
 const magicChime = new Audio("Magic_Chime.mp3");
 
 /* GIFs */
-const beyGif = "https://media.tenor.com/images/cae8b741f19112265ede8e47901c3d00/tenor.gif";
+const lurkGif = "https://media.tenor.com/images/cae8b741f19112265ede8e47901c3d00/tenor.gif";
 const welcomeGif = "https://media.giphy.com/media/l3V0doGbp2EDaLHJC/giphy.gif";
 const pizzaGif = "https://media.giphy.com/media/3o6nUXaNE4wdhq8Foc/giphy.gif";
 
@@ -32,7 +32,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   console.log(`!${command} was typed in chat`);
 
   if (command == "lurk") {
-    new gifAlert(user, beyGif, pewAudio, command);
+    new gifAlert(user, lurkGif, pewAudio, command);
   }
 
   if (command == "welcome") {
@@ -40,7 +40,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   }
   // Ok, ready!
   if(command == "music") {
-    new gifAlert(user, beyGif, pewAudio, command);
+    new gifAlert(user, lurkGif, pewAudio, command);
     // Please don't stop the music
     fetch("https://serve.onegraph.com/graphql?app_id=cdf2ebe1-3ad3-408a-81c0-1ed675d76411", {body: '{"doc_id": "e5e25f29-7862-4f23-8f53-8fb4373a0672"}', method: "POST"})
 
