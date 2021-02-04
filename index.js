@@ -31,7 +31,7 @@ ComfyJS.Init(twitchTvHandle);
 ComfyJS.onCommand = (user, command, message, flags, extra) => {
   console.log(`!${command} was typed in chat`);
 
-  if (command == "yo") {
+  if (command == "lurk") {
     new gifAlert(user, beyGif, pewAudio, command);
   }
 
@@ -68,7 +68,7 @@ ComfyJS.onChat = (user, message, flags, self, extra) => {
 };
 
 const generateTitle = {
-  yo: " is lurking!",
+  lurk: " is lurking!",
   welcome: " needs a welcome!",
   pizza: " needed a pizza party!",
   music: " stopped the music!"
