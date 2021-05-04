@@ -15,7 +15,7 @@ const magicChime = new Audio("Magic_Chime.mp3");
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
 const welcomeGif = "https://media.giphy.com/media/l3V0doGbp2EDaLHJC/giphy.gif";
-const pizzaGif = "https://media.giphy.com/media/3o6nUXaNE4wdhq8Foc/giphy.gif";
+const pizzaGif = "https://media.giphy.com/media/VCDSo9xqCJOjC/giphy.gif";
 
 
 // Resolve promise after duration
@@ -34,10 +34,13 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   if (command == "lurk") {
     new gifAlert(user, lurkGif, magicChime, command);
   }
-
   if (command == "welcome") {
     new gifAlert(message, welcomeGif, magicChime, command);
   }
+  if (command == "pizza") {
+    new gifAlert(message, pizzaGif, magicChime, command);
+  }
+  
   // Ok, ready!
   if(command == "music") {
     new gifAlert(user, lurkGif, pewAudio, command);
@@ -51,10 +54,10 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
       pauseSpotify();
     }, EVADE_THE_DMCA_BAN_LENGTH)
   }
-
-  if (flags.broadcaster && command == "pizza") {
-    new gifAlert(message, pizzaGif, magicChime, command);
-  }
+//Only for Broadcaster only
+  //if (flags.broadcaster && command == "pizza") {
+    //new gifAlert(message, pizzaGif, magicChime, command);
+ // }
 
   if (flags.broadcaster && command == "pause") {
     // Clear GIF queue and pause for PAUSE_DURATION
