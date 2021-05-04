@@ -15,7 +15,7 @@ const magicChime = new Audio("Magic_Chime.mp3");
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
 const welcomeGif = "https://media.giphy.com/media/l3V0doGbp2EDaLHJC/giphy.gif";
-const pizzaGif = "https://media.giphy.com/media/VCDSo9xqCJOjC/giphy.gif";
+const pizzaGif = "https://media.giphy.com/media/3osxYoufeOGOA7xiX6/giphy.gif";
 
 
 // Resolve promise after duration
