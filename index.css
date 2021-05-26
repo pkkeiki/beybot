@@ -20,7 +20,7 @@ img {
 .alerts {
   display: grid;
   justify-content: center;
-  width: 700px;
+  width: 600px;
   text-align: center;
 }
 
