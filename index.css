@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 body {
-  font-family: canada-type-gibson, sans-serif;
+  font-family: 'Fredoka One', cursive;
   font-size: .5rem;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1.25rem;
   display: grid;
   flex-direction: column;
