@@ -8,7 +8,6 @@ body {
   display: grid;
   flex-direction: column;
   justify-content: center;
-  word-wrap: break-word;
   line-height: normal;
 }
 
@@ -20,14 +19,16 @@ img {
 .alerts {
   display: grid;
   justify-content: center;
-  width: 600px;
+  width: 500px;
   text-align: center;
+  word-wrap: break-word;
 }
 
 .content {
   display: flex;
   align-content: center;
   justify-content: center;
+  word-wrap: break-word;
 }
 
 .text-shadows {
