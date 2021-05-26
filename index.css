@@ -19,7 +19,7 @@ img {
 .alerts {
   display: grid;
   justify-content: center;
-  width: 500px;
+  width: 400px;
   text-align: center;
   word-wrap: break-word;
 }
