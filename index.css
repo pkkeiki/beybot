@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  line-height: normal;
 }
 
 img {
@@ -41,6 +42,7 @@ img {
   color: #f6aca2;
   animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;
   letter-spacing: 0.4rem;
+  line-height: normal;
 }
 
 
