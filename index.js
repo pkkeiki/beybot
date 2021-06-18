@@ -16,7 +16,7 @@ const magicChime = new Audio("Magic_Chime.mp3");
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
 const welcomeGif = "https://media.giphy.com/media/l3V0doGbp2EDaLHJC/giphy.gif";
 const pizzaGif = "https://media.giphy.com/media/3osxYoufeOGOA7xiX6/giphy.gif";
-const rageGif = "https://thumbs.gfycat.com/WeightyOfficialArgali-size_restricted.gif";
+const rageGif = "https://media.tenor.com/images/65f38327dd88b17b1f9cd46a41c76bec/tenor.gif";
 
 // Resolve promise after duration
 const wait = async duration => {
