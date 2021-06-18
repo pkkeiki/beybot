@@ -150,12 +150,12 @@ img {
 
 
 .bounce-animation {
-  animation: bounce-animation ease 9.5s;
+  animation: bounce-animation ease 6s;
   animation-fill-mode: forwards !important;
-  -webkit-animation: bounce-animation ease 9.5s;
-  -moz-animation: bounce-animation ease 9.5s;
-  -o-animation: bounce-animation ease 9.5s;
-  -ms-animation: bounce-animation ease 9.5s;
+  -webkit-animation: bounce-animation ease 6s;
+  -moz-animation: bounce-animation ease 6s;
+  -o-animation: bounce-animation ease 6s;
+  -ms-animation: bounce-animation ease 6s;
 }
 @keyframes bounce-animation {
   0% { 
