@@ -85,8 +85,9 @@ function gifAlert(user, gif, audio, type) {
   queue.add(async () => {
     audio.play();
     container.innerHTML = `
-      <h1 class="text-shadows">${user + generateTitle[type]}</h1>
       <img src="${gif}" />
+      <h1 class="text-shadows">${user + generateTitle[type]}</h1>
+
     `;
     container.style.opacity = 1;
 
