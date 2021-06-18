@@ -16,7 +16,7 @@ const magicChime = new Audio("Magic_Chime.mp3");
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
 const welcomeGif = "https://media.giphy.com/media/l3V0doGbp2EDaLHJC/giphy.gif";
 const pizzaGif = "https://media.giphy.com/media/3osxYoufeOGOA7xiX6/giphy.gif";
-
+const rageGif = "https://thumbs.gfycat.com/WeightyOfficialArgali-size_restricted.gif";
 
 // Resolve promise after duration
 const wait = async duration => {
@@ -33,6 +33,9 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
 
   if (command == "lurk") {
     new gifAlert(user, lurkGif, magicChime, command);
+  }
+   if (command == "rage") {
+    new gifAlert(user, rageGif, magicChime, command);
   }
   if (command == "welcome") {
     new gifAlert(message, welcomeGif, magicChime, command);
@@ -72,6 +75,7 @@ ComfyJS.onChat = (user, message, flags, self, extra) => {
 
 const generateTitle = {
   lurk: " is lurking!",
+  rage: " is raging with keiki",
   welcome: " needs a welcome!",
   pizza: " needed a pizza party!",
   music: " stopped the music!"
