@@ -24,6 +24,7 @@ img {
   width: 400px;
   text-align: center;
   word-wrap: break-word;
+  animation: bounce-animation 9s ease-in;
 }
 
 .content {
