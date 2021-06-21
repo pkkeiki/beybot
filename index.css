@@ -45,7 +45,7 @@ img {
   text-align: center;
   margin: 0;
   color: #f6aca2;
-  /*animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;*/
+  animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;
   letter-spacing: 0.4rem;
   line-height: normal;
   word-wrap: break-word;
@@ -151,12 +151,12 @@ img {
 
 
 .bounce-animation {
-  animation: bounce-animation ease 9s;
+  animation: bounce-animation ease 10s;
   animation-fill-mode: forwards !important;
-  -webkit-animation: bounce-animation ease 9s;
-  -moz-animation: bounce-animation ease 9s;
-  -o-animation: bounce-animation ease 9s;
-  -ms-animation: bounce-animation ease 9s;
+  -webkit-animation: bounce-animation ease 10s;
+  -moz-animation: bounce-animation ease 10s;
+  -o-animation: bounce-animation ease 10s;
+  -ms-animation: bounce-animation ease 10s;
 }
 @keyframes bounce-animation {
   0% { 
