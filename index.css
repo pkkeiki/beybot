@@ -45,7 +45,7 @@ img {
   text-align: center;
   margin: 0;
   color: #f6aca2;
-  animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;
+  /*animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;*/
   letter-spacing: 0.4rem;
   line-height: normal;
   word-wrap: break-word;
