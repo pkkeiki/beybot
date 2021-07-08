@@ -36,7 +36,7 @@ img {
 }
 
 .content {
-  display: flex;
+  display: absolute;
   align-content: center;
   justify-content: center;
   word-wrap: break-word;
