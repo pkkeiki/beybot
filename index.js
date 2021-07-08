@@ -90,7 +90,7 @@ function gifAlert(user, gif, audio, type) {
     container.innerHTML = `
       <img src="${gif}" />
       <h1 class="text-shadows">${user + generateTitle[type]}</h1>
-
+      <img src="${bgImage}"/>
     `;
     container.style.opacity = 1;
 
