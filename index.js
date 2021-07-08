@@ -31,7 +31,7 @@ const pauseSpotify = () => {
 }
 
 ComfyJS.Init(twitchTvHandle);
-ComfyJS.onCommand = (user, command, message, bg, flags, extra) => {
+ComfyJS.onCommand = (user, command, message, flags, extra) => {
   console.log(`!${command} was typed in chat`);
 
   if (command == "lurk") {
@@ -41,7 +41,7 @@ ComfyJS.onCommand = (user, command, message, bg, flags, extra) => {
     new gifAlert(user, rageGif, magicChime, command);
   }
   if (command == "welcome") {
-    new gifAlert(message, welcomeGif, bgImage, gicChime, command);
+    new gifAlert(message, welcomeGif, gicChime, command);
   }
   if (command == "pizza") {
     new gifAlert(message, pizzaGif, magicChime, command);
