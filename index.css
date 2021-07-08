@@ -30,8 +30,7 @@ img {
 .bgImg
 {
   position: absolute;
-  top: 80px;
-  left: 15px;
+  left: 50px;
   z-index:-1;
 }
 
