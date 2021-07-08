@@ -22,8 +22,6 @@ img {
   position: absolute;
   /*justify-content: center;*/
   width: 400px;
-  top:60px;
-  left:30px;
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
