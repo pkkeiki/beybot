@@ -25,7 +25,7 @@ img {
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
-  z-index: 2;
+  
 }
 
 .bgImg
@@ -33,6 +33,7 @@ img {
   position: absolute;
   left: 20px;
   top: 0px;
+  z-index: -1;
 }
 
 .content {
