@@ -19,7 +19,7 @@ img {
 }
 
 .alerts {
-  position: relative;
+  position: grid;
   justify-content: center;
   width: 400px;
   text-align: center;
@@ -27,13 +27,17 @@ img {
   animation: bounce-animation;
 }
 
-.content {
+.bgImg
+{
   position: absolute;
+  top: 80px;
+}
+
+.content {
+  display: flex;
   align-content: center;
   justify-content: center;
   word-wrap: break-word;
-  top:30px;
-  left:20px;
 }
 
 
