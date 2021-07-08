@@ -13,7 +13,7 @@ const pewAudio = new Audio("horn.wav");
 const magicChime = new Audio("Magic_Chime.mp3");
 
 /*BG Image*/
-const bgImage = "https://github.com/pkkeiki/beybot/blob/333eca52a726d289c255f47e13c4404fbe8850d4/playing-norm_gif-tab.png"
+/*const bgImage = "https://github.com/pkkeiki/beybot/blob/333eca52a726d289c255f47e13c4404fbe8850d4/playing-norm_gif-tab.png"*/
 
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
