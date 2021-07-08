@@ -31,10 +31,10 @@ img {
 .bgImg
 {
   position: absolute;
-  left: 2px;
+  left: 0px;
   top: 0px;
   z-index: -1;
-  width: 550px;
+  width: 600px;
   height:auto;
 }
 
