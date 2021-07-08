@@ -31,7 +31,7 @@ const pauseSpotify = () => {
 }
 
 ComfyJS.Init(twitchTvHandle);
-ComfyJS.onCommand = (user, command, message, flags, extra) => {
+ComfyJS.onCommand = (user, command, message, bg, flags, extra) => {
   console.log(`!${command} was typed in chat`);
 
   if (command == "lurk") {
