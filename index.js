@@ -12,8 +12,6 @@ const queue = new Queue();
 const pewAudio = new Audio("horn.wav");
 const magicChime = new Audio("Magic_Chime.mp3");
 
-/*BG Image*/
-const bgImage = "https://github.com/pkkeiki/beybot/blob/8e4f6e1df0041506b39bf46c02e31cf6ebd08435/playing-norm_gif-tab.png";
 
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
@@ -31,7 +29,7 @@ const pauseSpotify = () => {
 }
 
 ComfyJS.Init(twitchTvHandle);
-ComfyJS.onCommand = (user, command, message, bg, flags, extra) => {
+ComfyJS.onCommand = (user, command, message, flags, extra) => {
   console.log(`!${command} was typed in chat`);
 
   if (command == "lurk") {
@@ -41,7 +39,7 @@ ComfyJS.onCommand = (user, command, message, bg, flags, extra) => {
     new gifAlert(user, rageGif, magicChime, command);
   }
   if (command == "welcome") {
-    new gifAlert(message, welcomeGif, bgImage, magicChime, command);
+    new gifAlert(message, welcomeGif, magicChime, command);
   }
   if (command == "pizza") {
     new gifAlert(message, pizzaGif, magicChime, command);
