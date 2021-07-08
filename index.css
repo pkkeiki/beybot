@@ -34,6 +34,8 @@ img {
   left: 15px;
   top: 0px;
   z-index: -1;
+  width: auto;
+  height:450px;
 }
 
 .content {
