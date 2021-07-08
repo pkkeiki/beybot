@@ -34,10 +34,9 @@ img {
   word-wrap: break-word;
 }
 
-#bgImage
+.bgImage
 {
-  background-image: url(https://github.com/pkkeiki/beybot/blob/gh-pages/playing-norm_gif-tab.png?raw=true);
-  background-repeat: no-repeat;
+  display: absolute;
 }
 
 .text-shadows {
