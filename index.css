@@ -16,6 +16,7 @@ img {
   margin: auto;
   width:375px;
   height:auto;
+  
 }
 
 .alerts {
@@ -25,14 +26,19 @@ img {
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
-  Top:20px;
 }
+
+.animated-gif{
+  position:absolute;
+  top:40px;
+}
+
 
 .bgImg
 {
   position: absolute;
   left: 0px;
-  top: -20px;
+  top: 0px;
   z-index: -1;
   width: 600px;
   height:auto;
