@@ -12,6 +12,8 @@ const queue = new Queue();
 const pewAudio = new Audio("horn.wav");
 const magicChime = new Audio("Magic_Chime.mp3");
 
+/*bgImg*/
+const bgImg= "https://github.com/pkkeiki/beybot/blob/gh-pages/playing-norm_gif-tab.png?raw=true";
 
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
@@ -33,7 +35,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   console.log(`!${command} was typed in chat`);
 
   if (command == "lurk") {
-    new gifAlert(user, lurkGif, magicChime, command);
+    new gifAlert(user, lurkGif, bgGif, magicChime, command);
   }
    if (command == "rage") {
     new gifAlert(user, rageGif, magicChime, command);
@@ -47,7 +49,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   
   // Ok, ready!
   if(command == "music") {
-    new gifAlert(user, lurkGif, pewAudio, command);
+    new gifAlert(user, lurkGif, bg, pewAudio, command);
     // Please don't stop the music
     fetch("https://serve.onegraph.com/graphql?app_id=cdf2ebe1-3ad3-408a-81c0-1ed675d76411", {body: '{"doc_id": "e5e25f29-7862-4f23-8f53-8fb4373a0672"}', method: "POST"})
 
@@ -82,12 +84,13 @@ const generateTitle = {
   music: " stopped the music!"
 };
 
-function gifAlert(user, gif, audio, type) {
+function gifAlert(user, gif, img, audio, type) {
   queue.add(async () => {
     audio.play();
     container.innerHTML = `
       <img src="${gif}" />
       <h1 class="text-shadows">${user + generateTitle[type]}</h1>
+      <img src="${bgImg}" />
     `;
     container.style.opacity = 1;
 
