@@ -14,7 +14,7 @@ const magicChime = new Audio("Magic_Chime.mp3");
 
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
-const welcomeGif = "https://media.giphy.com/media/l3V0doGbp2EDaLHJC/giphy.gif";
+const welcomeGif = "https://i.pinimg.com/originals/44/03/2d/44032df52abb777d335700443dd245c1.gif";
 const pizzaGif = "https://media.giphy.com/media/3osxYoufeOGOA7xiX6/giphy.gif";
 const rageGif = "https://thumbs.gfycat.com/WeightyOfficialArgali-size_restricted.gif";
 
