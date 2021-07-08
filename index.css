@@ -111,10 +111,10 @@ img {
     text-shadow: none;
   }
   10% {
-    text-shadow: 3px 3px 0 #f49b90;
+    text-shadow: 3px 3px 0 #ffffff;
   }
   20% {
-    text-shadow: 3px 3px 0 #f49b90,
+    text-shadow: 3px 3px 0 #ffffff,
       6px 6px 0 #f28b7d;
   }
   30% {
