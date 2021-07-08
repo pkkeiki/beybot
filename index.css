@@ -25,14 +25,14 @@ img {
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
-  
+  Top:20px;
 }
 
 .bgImg
 {
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: -20px;
   z-index: -1;
   width: 600px;
   height:auto;
