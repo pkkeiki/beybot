@@ -20,7 +20,7 @@ img {
 }
 
 .alerts {
-  position: relative;
+  position: absolute;
   /*justify-content: center;*/
   width: 400px;
   text-align: center;
