@@ -12,6 +12,9 @@ const queue = new Queue();
 const pewAudio = new Audio("horn.wav");
 const magicChime = new Audio("Magic_Chime.mp3");
 
+/*BG Image*/
+const bgImage = "https://github.com/pkkeiki/beybot/blob/gh-pages/playing-norm_gif-tab.png"
+
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
 const welcomeGif = "https://i.pinimg.com/originals/44/03/2d/44032df52abb777d335700443dd245c1.gif";
@@ -38,7 +41,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
     new gifAlert(user, rageGif, magicChime, command);
   }
   if (command == "welcome") {
-    new gifAlert(message, welcomeGif, magicChime, command);
+    new gifAlert(message, welcomeGif, bgImage, gicChime, command);
   }
   if (command == "pizza") {
     new gifAlert(message, pizzaGif, magicChime, command);
