@@ -22,7 +22,7 @@ img {
   position: absolute;
   /*justify-content: center;*/
   width: 400px;
-  top:20px;
+  top:40px;
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
