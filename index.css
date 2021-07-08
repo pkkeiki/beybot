@@ -19,7 +19,7 @@ img {
 }
 
 .alerts {
-  position: absolute;
+  position: relative;
   justify-content: center;
   width: 400px;
   text-align: center;
@@ -28,7 +28,7 @@ img {
 }
 
 .content {
-  position: relative;
+  position: absolute;
   align-content: center;
   justify-content: center;
   word-wrap: break-word;
