@@ -14,7 +14,8 @@ body {
 img {
   border-radius: 8px;
   margin: auto;
-  width:400px;
+  width:360px;
+  height:200px;
   height:auto;
   object-fit: cover;
   object-position: 20% 10%;
