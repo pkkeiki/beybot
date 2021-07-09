@@ -22,7 +22,7 @@ img {
 .alerts {
   position: absolute;
   /*justify-content: center;*/
-  width: 400px;
+  width: 450px;
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
@@ -56,7 +56,7 @@ img {
 .text-shadows {
   position:absolute;
   top:250px;
-  left:70px;
+  left:100px;
   padding-top:20px;
   text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;
