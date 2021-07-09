@@ -14,11 +14,11 @@ body {
 img {
   border-radius: 8px;
   margin: auto;
-  width:360px;
-  height:200px;
+  width:350px;
+  height:150px;
   height:auto;
   object-fit: cover;
-  object-position: 20% 10%;
+  object-position: 100% 0;
   
 }
 
