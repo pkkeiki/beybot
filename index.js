@@ -44,7 +44,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
     new gifAlert(message, welcomeGif, bgImg, magicChime, command);
   }
   if (command == "hug") {
-    new gifAlert(message, hugGif, bgImg, magicChime, command);
+    new gifAlert(user, hugGif, bgImg, magicChime, command);
   }
   
   // Ok, ready!
