@@ -18,7 +18,7 @@ const bgImg= "https://github.com/pkkeiki/beybot/blob/gh-pages/playing-norm_gif-t
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
 const welcomeGif = "https://i.pinimg.com/originals/44/03/2d/44032df52abb777d335700443dd245c1.gif";
-const pizzaGif = "https://media.giphy.com/media/3osxYoufeOGOA7xiX6/giphy.gif";
+const hugGif = "https://i.pinimg.com/originals/e6/36/47/e636479dafb6be4d4a6c23e2c52a42bf.gif";
 const rageGif = "https://thumbs.gfycat.com/WeightyOfficialArgali-size_restricted.gif";
 
 // Resolve promise after duration
@@ -43,8 +43,8 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   if (command == "welcome") {
     new gifAlert(message, welcomeGif, bgImg, magicChime, command);
   }
-  if (command == "pizza") {
-    new gifAlert(message, pizzaGif, bgImg, magicChime, command);
+  if (command == "hug") {
+    new gifAlert(message, hugGif, bgImg, magicChime, command);
   }
   
   // Ok, ready!
@@ -80,7 +80,7 @@ const generateTitle = {
   lurk: " is lurking!",
   rage: " is raging with keiki",
   welcome: " needs a welcome!",
-  pizza: " needed a pizza party!",
+  hug: " sent keiki a hug!",
   music: " stopped the music!"
 };
 
