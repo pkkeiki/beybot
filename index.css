@@ -35,7 +35,7 @@ img {
   top:140px;
   left:150px;
   object-fit: cover;
-  object-position: 100% 0;
+  object-position: 100% 30%;
   width:300px;
   height:10px;
 }
