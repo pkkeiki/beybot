@@ -16,6 +16,8 @@ img {
   margin: auto;
   width:300px;
   height:auto;
+  object-fit: cover;
+  object-position: 20% 10%;
   
 }
 
