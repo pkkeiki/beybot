@@ -90,7 +90,7 @@ function gifAlert(user, gif, img, audio, type) {
     container.innerHTML = `
        <img class="bgImg" src="${bgImg}" />
       <img class="animated-gif" src="${gif}" />
-      <h1 class="text-shadows">${user + generateTitle[type]}</h1>
+      <h1 class="text-shadows bounce-animation">${user + generateTitle[type]}</h1>
     `;
     container.style.opacity = 1;
 
