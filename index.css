@@ -32,12 +32,12 @@ img {
 
 .animated-gif{
   position:absolute;
-  top:140px;
-  left:110px;
+  top:135px;
+  left:115px;
   object-fit: cover;
   object-position: 100% 30%;
   width:400px;
-  height:150px;
+  height:160px;
 }
 
 
