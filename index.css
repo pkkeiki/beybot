@@ -33,7 +33,7 @@ img {
 .animated-gif{
   position:absolute;
   top:140px;
-  left:150px;
+  left:160px;
   object-fit: cover;
   object-position: 100% 30%;
   width:300px;
