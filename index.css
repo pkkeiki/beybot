@@ -61,7 +61,9 @@ img {
   position:absolute;
   top:300px;
   left:50px;
-  padding-top:20px;
+  /*padding-top:20px;*/
+  padding:1em;
+  width:100px;
   /*text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
   font-family: 'Fredoka One', cursive;
