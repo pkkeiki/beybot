@@ -77,6 +77,12 @@ img {
   letter-spacing: 0.4rem;
   line-height: normal;
   word-wrap: break-word;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 1em; /* a */
+  max-height: 2em; /* a x number of line to show (ex : 2 line)  */
 }
 
 
