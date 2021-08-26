@@ -52,19 +52,10 @@ img {
 }
 
 .content {
+  display: absolute;
   align-content: center;
   justify-content: center;
   word-wrap: break-word;
-  overflow: hidden;
-  
-  
-  
-  
-  
-  -overflow: ellipsis;
-  display: block;
-  line-height: 1em; /* a */
-  max-height: 2em; /* a x number of line to show (ex : 2 line)  */
 }
 
 
