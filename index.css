@@ -28,6 +28,9 @@ img {
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
 }
 
 .animated-gif{
