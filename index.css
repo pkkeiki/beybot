@@ -82,6 +82,8 @@ img {
  
   white-space: nowrap;
   background-color:blue;
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
 
 
