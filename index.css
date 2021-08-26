@@ -26,7 +26,7 @@ img {
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
-  height:400px;
+  height:300px;
 }
 
 .animated-gif{
@@ -66,7 +66,8 @@ img {
   /*text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
   font-family: 'Fredoka One', cursive;
-  font-size: calc(.35rem + 3vw);
+  /*font-size: calc(.35rem + 3vw);*/
+  font-size:5vh;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
