@@ -64,8 +64,8 @@ img {
   top:300px;
   left:50px;
   padding-top:20px;
-  text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
-    9px 9px #f07a6a, 12px 12px 0 #f07a6a;
+  /*text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
+    9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
   font-family: 'Fredoka One', cursive;
   font-size: calc(.35rem + 3vw);
   font-weight: 400;
@@ -73,19 +73,19 @@ img {
   text-align: center;
   margin: 0;
   color: #ffffff;
-  animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;
+  /*animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;*/
   letter-spacing: 0.4rem;
   line-height: normal;
   word-wrap: break-word;
 }
 
 
-.fade-in {
+/*.fade-in {
   animation: fadeIn ease 6s;
   -webkit-animation: fadeIn ease 6s;
   -moz-animation: fadeIn ease 6s;
   -o-animation: fadeIn ease 6s;
-  -ms-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;*/
 }
 
 @keyframes fadeIn {
