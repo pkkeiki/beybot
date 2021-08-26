@@ -59,8 +59,8 @@ img {
 
 .text-shadows {
   position:absolute;
-  top:280px;
-  left:30px;
+  top:300px;
+  left:50px;
   /*padding-top:20px;*/
   padding:.5em;
   width:500px;
@@ -69,7 +69,7 @@ img {
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
   font-family: 'Fredoka One', cursive;
   /*font-size: calc(.35rem + 3vw);*/
-  font-size:1em;
+  font-size:2em;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
