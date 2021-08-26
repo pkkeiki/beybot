@@ -26,6 +26,7 @@ img {
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
+  height:400px;
 }
 
 .animated-gif{
@@ -75,8 +76,6 @@ img {
   letter-spacing: 0.4rem;
   line-height: normal;
   word-wrap: break-word;
-  height:150px;
-  
  
 }
 
