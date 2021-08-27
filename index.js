@@ -91,8 +91,10 @@ const generateTitle = {
 
 
 
-
-
+function resetDisplay(element) {
+    var eye = document.getElementsByTagName("h1");
+    eye.style.fontSize = "2vw";
+},
 
     for (var i=fontSize; i>=0; i--){
         var overflow = isOverflowing(eye);
@@ -102,10 +104,7 @@ const generateTitle = {
         }
     }
 },
-resetDisplay : function() {
-    var eye = document.getElementsByTagName("h1");
-    eye.style.fontSize = "2vw";
-},
+
 
 
 
