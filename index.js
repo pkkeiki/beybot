@@ -95,13 +95,9 @@ const generateTitle = {
 
 
 
-const isOverflown = ({ clientHeight, scrollHeight }) => scrollHeight > clientHeight;
+const isOverflown = ({ clientHeight, scrollHeight }) => scrollHeight > clientHeight
 
-resizeText({
-  element: document.querySelector('.text-shadows'),
-  parent: document.querySelector('.text-container')
-})
-const resizeText = ({ element, elements, minSize = 12, maxSize = 36, step = 1, unit = 'px' }) => {
+const resizeText = ({ element, elements, minSize = 10, maxSize = 512, step = 1, unit = 'px' }) => {
   (elements || [element]).forEach(el => {
     let i = minSize
     let overflow = false
@@ -119,7 +115,6 @@ const resizeText = ({ element, elements, minSize = 12, maxSize = 36, step = 1, u
     el.style.fontSize = `${i - step}${unit}`
   })
 }
-
 resizeText({
   elements: document.querySelectorAll('.text-shadows'),
   step: 0.5
