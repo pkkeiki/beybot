@@ -93,6 +93,10 @@ const generateTitle = {
   music: " stopped the music!"
 };
 
+
+
+const isOverflown = ({ clientHeight, scrollHeight }) => scrollHeight > clientHeight
+
 resizeText({
   element: document.querySelector('.text-shadows'),
   parent: document.querySelector('#text-container')
