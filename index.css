@@ -60,22 +60,24 @@ img {
 .text-shadows {
   position:absolute;
   top:296px;
-  left:46px;
-  /*padding-top:20px;*/
+  left:45px;
   padding:.5em;
   width:500px;
-  height:75px;
+  height:80px;
+  
+  /*padding-top:20px;*/
   /*text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
-  font-family: 'Fredoka One', cursive;
   /*font-size: calc(.35rem + 3vw);*/
+   /*animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;*/
+  
+  font-family: 'Fredoka One', cursive;
   font-size:1.5em;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   margin: 0;
   color: #ffffff;
-  /*animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;*/
   letter-spacing: 0.4rem;
   line-height: normal;
   word-wrap: break-word;
