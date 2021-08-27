@@ -81,7 +81,7 @@ img {
   word-wrap: break-word;
  
   white-space: normal;
-  background-color:blue;
+  /*background-color:blue;*/
   overflow: hidden;
   text-overflow: ellipsis; 
 }
