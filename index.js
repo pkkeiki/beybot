@@ -97,7 +97,7 @@ const generateTitle = {
 function isOverflown(element) {
     return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
-let el = document.getElementByClassName('.alerts');
+let el = document.getElementByClassName('alerts');
 let fontSize = parseInt(el.style.fontSize);
 for (let i = fontSize; i >= 0; i--) {
     let overflow = isOverflown(el);
