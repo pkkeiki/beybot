@@ -68,20 +68,18 @@ img {
 
 .text-container
 {
-  width:500px;
-  height:100px;
+  
   position:absolute;
   top:296px;
   left:45px;
   
-  /*width: 100%;
+  width: 100%;
   height: 100%;
-  border: 1px solid;*/
+  /*border: 1px solid;*/
 }
 
 .text-shadows {
   padding:.5em;
-  
   
   /*text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
