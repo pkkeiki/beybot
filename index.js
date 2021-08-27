@@ -34,21 +34,6 @@ const wait = async duration => {
 //}
 
 
-
-function isOverflown(element) {
-    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
-}
-let el = document.getElementByclass('.text-shadows');
-let fontSize = parseInt(el.style.fontSize);
-for (let i = fontSize; i >= 0; i--) {
-    let overflow = isOverflown(el);
-    if (overflow) {
-     fontSize--;
-     el.style.fontSize = fontSize + "px";
-    }
-}
-
-
 ComfyJS.Init(twitchTvHandle);
 ComfyJS.onCommand = (user, command, message, flags, extra) => {
   console.log(`!${command} was typed in chat`);
@@ -105,17 +90,23 @@ const generateTitle = {
 
 
 
-/* document.body.setScaledFont = function (f) {
-       var s = this.offsetWidth,
-           fs = s * f;
-       this.style.fontSize = fs + '%';
-       return this
-   };
 
-   document.body.setScaledFont(0.35);
-   window.onresize = function () {
-       document.body.setScaledFont(0.35);
-   }*/
+
+
+
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
+let el = document.getElementByClassName('.text-shadows');
+let fontSize = parseInt(el.style.fontSize);
+for (let i = fontSize; i >= 0; i--) {
+    let overflow = isOverflown(el);
+    if (overflow) {
+     fontSize--;
+     el.style.fontSize = fontSize + "px";
+    }
+}
+
 
 
 
