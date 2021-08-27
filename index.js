@@ -44,6 +44,12 @@ function resize_to_fit() {
   }
 }
 
+function processInput() { 
+  textContainer.innerHTML =this.value;
+  textContainer.style.fontSize = '100px'; // Default font size
+  resize_to_fit();
+}
+input.addEventListener('container', processInput);
 
 
 ComfyJS.Init(twitchTvHandle);
