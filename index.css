@@ -22,9 +22,7 @@ img {
 .alerts {
   position: absolute;
   justify-content: center;
-  /*width: 565px;*/
-  width:100%;
-  height:100%;
+  width: 565px;
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
