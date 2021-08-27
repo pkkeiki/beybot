@@ -74,6 +74,7 @@ img {
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
   /*font-size: calc(.35rem + 3vw);*/
    /*animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;*/
+  /*letter-spacing: 0.4rem;*/
   
   font-family: 'Fredoka One', cursive;
   font-size:3.5vw;
@@ -82,15 +83,12 @@ img {
   text-align: center;
   margin: 0;
   color: #ffffff;
-  /*letter-spacing: 0.4rem;*/
   line-height: normal;
   word-wrap: break-word;
- 
+  
   display: table-cell;
   white-space: normal;
-  background-color:blue;
   overflow: hidden;
-  text-overflow: ellipsis;
   vertical-align: middle;
 }
 
