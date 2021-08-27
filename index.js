@@ -93,7 +93,25 @@ const generateTitle = {
   music: " stopped the music!"
 };
 
+resizeText({
+  element: document.querySelector('.text-shadows'),
+  parent: document.querySelector('#text-container')
+})
 
+const resizeText = ({ element, parent }) => {
+  let i = 1 // let's start with 12px
+  let overflow = false
+  const maxSize = 3 // very huge text size
+
+  while (!overflow && i < maxSize) {
+    element.style.fontSize = `${i}vw`
+    overflow = isOverflown(parent)
+    if (!overflow) i++
+  }
+
+  // revert to last state where no overflow happened:
+  element.style.fontSize = `${i - 1}vw`
+}
 
 
 
