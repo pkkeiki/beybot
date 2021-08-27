@@ -57,11 +57,14 @@ img {
   display: table;
 }
 
+#text-container
+{
+  position:absolute;
+  top:296px;
+  left:45px;
+}
 
 .text-shadows {
-  /*position:absolute;
-  top:296px;
-  left:45px;*/
   padding:.5em;
   width:500px;
   height:80px;
