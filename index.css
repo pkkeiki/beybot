@@ -57,13 +57,21 @@ img {
   /*display: table;*/
 }
 
+.text-parent
+{
+  width:500px;
+  height:100px;
+  
+}
+
 #text-container
 {
   position:absolute;
   top:296px;
   left:45px;
-  width:500px;
-  height:100px;
+  width: 100%;
+   height: 100%;
+  border: 1px solid;
 }
 
 .text-shadows {
