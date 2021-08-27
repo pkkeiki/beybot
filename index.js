@@ -93,7 +93,7 @@ const generateTitle = {
 function isOverflown(element) {
     return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
-let el = document.getElementsByTagName('H1');
+let el = document.getElementByClassName('text-shadows');
 let fontSize = parseInt(el.style.fontSize);
 for (let i = fontSize; i >= 0; i--) {
     let overflow = isOverflown(el);
