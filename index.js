@@ -115,6 +115,7 @@ const resizeText = ({ element, elements, minSize = 10, maxSize = 512, step = 1, 
     el.style.fontSize = `${i - step}${unit}`
   })
 }
+}
 resizeText({
   elements: document.querySelectorAll('.text-shadows'),
   step: 0.5
