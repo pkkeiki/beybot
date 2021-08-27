@@ -98,9 +98,9 @@ const generateTitle = {
 const isOverflown = ({ clientHeight, scrollHeight }) => scrollHeight > clientHeight
 
 const resizeText = ({ element, parent }) => {
-  let i = 12 // let's start with 12px
+  let i = 1 // let's start with 12px
   let overflow = false
-  const maxSize = 128 // very huge text size
+  const maxSize = 3 // very huge text size
 
   while (!overflow && i < maxSize) {
     element.style.fontSize = `${i}vw`
@@ -114,8 +114,8 @@ const resizeText = ({ element, parent }) => {
 
 
 resizeText({
-  element: document.querySelector('h1'),
-  parent: document.querySelector('.text-shadows')
+  element: document.querySelector('.text-shadows'),
+  parent: document.querySelector('.alerts')
 })
 
 
