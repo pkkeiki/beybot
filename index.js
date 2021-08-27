@@ -103,19 +103,19 @@ const resizeText = ({ element, parent }) => {
   const maxSize = 128 // very huge text size
 
   while (!overflow && i < maxSize) {
-    element.style.fontSize = `${i}px`
+    element.style.fontSize = `${i}vw`
     overflow = isOverflown(parent)
     if (!overflow) i++
   }
 
   // revert to last state where no overflow happened:
-  element.style.fontSize = `${i - 1}px`
+  element.style.fontSize = `${i - 1}vw`
 }
 
 
 resizeText({
-  element: document.querySelector('.text-shadows'),
-  parent: document.querySelector('h1')
+  element: document.querySelector('h1'),
+  parent: document.querySelector('.text-shadows')
 })
 
 
@@ -126,7 +126,7 @@ function gifAlert(user, gif, img, audio, type) {
     container.innerHTML = `
        <img class="bgImg bounce-animation" src="${bgImg}" />
       <img class="animated-gif bounce-animation" src="${gif}" />
-      <h1 class="text-shadows bounce-animation" id="fittext">${user + generateTitle[type]}</h1>
+      <h1 class="text-shadows bounce-animation">${user + generateTitle[type]}</h1>
     `;
     container.style.opacity = 1;
 
