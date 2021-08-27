@@ -35,21 +35,18 @@ const wait = async duration => {
 
 
 
-function resize_to_fit() {
-  let fontSize = window.getComputedStyle(textContainer).fontSize;
-  textContainer.style.fontSize = (parseFloat(fontSize) - 1) + 'px';
-  
-  if(textContainer.clientHeight >= container.clientHeight){
-    resize_to_fit();
-  }
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
-
-function processInput() { 
-  textContainer.innerHTML =this.value;
-  textContainer.style.fontSize = '100px'; // Default font size
-  resize_to_fit();
+let el = document.getElementByclass('.text-shadows');
+let fontSize = parseInt(el.style.fontSize);
+for (let i = fontSize; i >= 0; i--) {
+    let overflow = isOverflown(el);
+    if (overflow) {
+     fontSize--;
+     el.style.fontSize = fontSize + "px";
+    }
 }
-
 
 
 ComfyJS.Init(twitchTvHandle);
