@@ -21,6 +21,7 @@ const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
 const welcomeGif = "https://i.pinimg.com/originals/44/03/2d/44032df52abb777d335700443dd245c1.gif";
 const hugGif = "https://i.imgur.com/FCXa6Gx.gif";
 const rageGif = "https://images.squarespace-cdn.com/content/v1/5b23e822f79392038cbd486c/1617858446471-IOMNAG9GUPD9BMTVM3BJ/0f2fc14c5e3e9d653a20cb4c3a4af048.gif";
+const panicGif = "https://c.tenor.com/gTcTYGzF9T4AAAAC/wee-woo-patrick-star.gif";
 
 // Resolve promise after duration
 const wait = async duration => {
@@ -49,6 +50,9 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   }
   if (command == "hug") {
     new gifAlert(user, hugGif, bgImg, magicChime, command);
+  }
+  if (command == "panic") {
+    new gifAlert(user, scaredGif, bgImg, magicChime, command);
   }
   
   // Ok, ready!
@@ -85,6 +89,7 @@ const generateTitle = {
   rage: " is raging with keiki",
   welcome: " needs a welcome!",
   hug: " sent keiki a hug!",
+  panic: " is panicking with keiki",
   music: " stopped the music!"
 };
 
