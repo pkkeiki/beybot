@@ -19,7 +19,7 @@ const bgImg= "https://github.com/pkkeiki/beybot/blob/gh-pages/playing-norm_gif-t
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
 const welcomeGif = "https://i.pinimg.com/originals/44/03/2d/44032df52abb777d335700443dd245c1.gif";
-const hugGif = "https://imgur.com/FCXa6Gx";
+const hugGif = "https://i.imgur.com/FCXa6Gx.gif";
 const rageGif = "https://images.squarespace-cdn.com/content/v1/5b23e822f79392038cbd486c/1617858446471-IOMNAG9GUPD9BMTVM3BJ/0f2fc14c5e3e9d653a20cb4c3a4af048.gif";
 
 // Resolve promise after duration
