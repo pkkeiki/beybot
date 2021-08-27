@@ -99,23 +99,31 @@ const isOverflown = ({ clientHeight, scrollHeight }) => scrollHeight > clientHei
 
 resizeText({
   element: document.querySelector('.text-shadows'),
-  parent: document.querySelector('#text-container')
+  parent: document.querySelector('.text-container')
 })
+const resizeText = ({ element, elements, minSize = 12, maxSize = 36, step = 1, unit = 'px' }) => {
+  (elements || [element]).forEach(el => {
+    let i = minSize
+    let overflow = false
 
-const resizeText = ({ element, parent }) => {
-  let i = 1 // let's start with 12px
-  let overflow = false
-  const maxSize = 3 // very huge text size
+        const parent = el.parentNode
 
-  while (!overflow && i < maxSize) {
-    element.style.fontSize = `${i}vw`
-    overflow = isOverflown(parent)
-    if (!overflow) i++
-  }
+    while (!overflow && i < maxSize) {
+        el.style.fontSize = `${i}${unit}`
+        overflow = isOverflown(parent)
 
-  // revert to last state where no overflow happened:
-  element.style.fontSize = `${i - 1}vw`
+      if (!overflow) i += step
+    }
+
+    // revert to last state where no overflow happened
+    el.style.fontSize = `${i - step}${unit}`
+  })
 }
+
+resizeText({
+  elements: document.querySelectorAll('.text-shadows'),
+  step: 0.5
+})
 
 
 
