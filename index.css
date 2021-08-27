@@ -50,10 +50,11 @@ img {
 }
 
 .content {
-  display: absolute;
+  position: absolute;
   align-content: center;
   justify-content: center;
   word-wrap: break-word;
+  display: table;
 }
 
 
@@ -82,6 +83,7 @@ img {
   line-height: normal;
   word-wrap: break-word;
  
+  display: table-cell;
   white-space: normal;
   background-color:blue;
   overflow: hidden;
