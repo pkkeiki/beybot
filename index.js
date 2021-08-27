@@ -99,7 +99,7 @@ for (let i = fontSize; i >= 0; i--) {
     let overflow = isOverflown(el);
     if (overflow) {
      fontSize--;
-     el.style.fontSize = fontSize + "vw";
+     el.style.fontSize = fontSize + "px";
     }
 }
 
