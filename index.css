@@ -57,14 +57,14 @@ img {
   display: table;
 }
 
-/*.text-parent
+.text-parent
 {
   width:500px;
   height:100px;
-  background: grey;
+  /*background: grey;
   padding: 15px;
-  
-}*/
+  */
+}
 
 .text-container
 {
