@@ -57,24 +57,26 @@ img {
   display: table;
 }
 
-.text-parent
+/*.text-parent
 {
   width:500px;
   height:100px;
-  /*background: grey;
+  background: grey;
   padding: 15px;
-  */
-}
+ 
+} */
 
 .text-container
 {
+  width:500px;
+  height:100px;
   position:absolute;
   top:296px;
   left:45px;
   
-  width: 100%;
+  /*width: 100%;
   height: 100%;
-  /*border: 1px solid;*/
+  border: 1px solid;*/
 }
 
 .text-shadows {
