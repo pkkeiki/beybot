@@ -112,7 +112,7 @@ const resizeText = ({ element, parent }) => {
   element.style.fontSize = `${i - 1}px`
 }
 resizeText({
-  element: document.querySelector('.text'),
+  element: document.querySelector('.text-shadows'),
   parent: document.querySelector('.text-container')
 })
 
