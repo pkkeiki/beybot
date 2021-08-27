@@ -61,10 +61,12 @@ img {
 {
   width:500px;
   height:100px;
+  background: grey;
+  padding: 15px;
   
 }
 
-#text-container
+.text-container
 {
   /*position:absolute;
   top:296px;
@@ -76,9 +78,9 @@ img {
 }
 
 .text-shadows {
-  padding:.5em;
+  /*padding:.5em;*/
   
-  /*padding-top:20px;*/
+  
   /*text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
   /*font-size: calc(.35rem + 3vw);*/
