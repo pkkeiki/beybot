@@ -90,20 +90,18 @@ const generateTitle = {
 
 
 
-
-function resetDisplay(element) {
-    var eye = document.getElementsByTagName("h1");
-    eye.style.fontSize = "2vw";
-},
-
-    for (var i=fontSize; i>=0; i--){
-        var overflow = isOverflowing(eye);
-        if (overflow) {
-            fontSize--;
-            eye.style.fontSize = fontSize + "vw";
-        }
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
+let el = document.getElementsByTagName('H1');
+let fontSize = parseInt(el.style.fontSize);
+for (let i = fontSize; i >= 0; i--) {
+    let overflow = isOverflown(el);
+    if (overflow) {
+     fontSize--;
+     el.style.fontSize = fontSize + "vw";
     }
-},
+}
 
 
 
