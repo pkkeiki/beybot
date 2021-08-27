@@ -103,7 +103,7 @@ img {
  /* background-color:blue;*/
   
   display: table-cell;
-  display:block;
+  /*display:block;*/
   white-space: normal;
   overflow: hidden;
   vertical-align: middle;
