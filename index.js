@@ -52,7 +52,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
     new gifAlert(user, hugGif, bgImg, magicChime, command);
   }
   if (command == "panic") {
-    new gifAlert(user, scaredGif, bgImg, magicChime, command);
+    new gifAlert(user, panicGif, bgImg, magicChime, command);
   }
   
   // Ok, ready!
@@ -94,19 +94,6 @@ const generateTitle = {
 };
 
 
-
-function isOverflown(element) {
-    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
-}
-let el = document.getElementByClassName('text-shadows');
-let fontSize = parseInt(el.style.fontSize);
-for (let i = fontSize; i >= 0; i--) {
-    let overflow = isOverflown(el);
-    if (overflow) {
-     fontSize--;
-     el.style.fontSize = fontSize + "vw";
-    }
-}
 
 
 
