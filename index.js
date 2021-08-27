@@ -115,7 +115,7 @@ const resizeText = ({ element, parent }) => {
 
 resizeText({
   element: document.querySelector('.text-shadows'),
-  parent: document.querySelector('.alerts')
+  parent: document.querySelector('#content')
 })
 
 
