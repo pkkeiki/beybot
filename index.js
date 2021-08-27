@@ -7,6 +7,7 @@ const DISPLAY_DURATION = 10 * 1000; // 10 seconds
 const container = document.querySelector(".alerts");
 const img = new Image();
 const queue = new Queue();
+const textContainer = document.querySelector(".text-shadows");
 
 /* Sound Effects */
 const pewAudio = new Audio("horn.wav");
@@ -26,9 +27,24 @@ const wait = async duration => {
   return new Promise(resolve => setTimeout(resolve, duration));
 };
 
-const pauseSpotify = () => {
-  fetch("https://serve.onegraph.com/graphql?app_id=cdf2ebe1-3ad3-408a-81c0-1ed675d76411", {body: '{"doc_id": "10fccd15-1a55-4a27-877a-a63106b4bd11"}', method: "POST"})
+
+// Only for Music purposes
+//const pauseSpotify = () => {
+  //fetch("https://serve.onegraph.com/graphql?app_id=cdf2ebe1-3ad3-408a-81c0-1ed675d76411", {body: '{"doc_id": "10fccd15-1a55-4a27-877a-a63106b4bd11"}', method: "POST"})
+//}
+
+
+
+function resize_to_fit() {
+  let fontSize = window.getComputedStyle(textContainer).fontSize;
+  textContainer.style.fontSize = (parseFloat(fontSize) - 1) + 'px';
+  
+  if(textContainer.clientHeight >= container.clientHeight){
+    resize_to_fit();
+  }
 }
+
+
 
 ComfyJS.Init(twitchTvHandle);
 ComfyJS.onCommand = (user, command, message, flags, extra) => {
@@ -97,6 +113,7 @@ const generateTitle = {
    window.onresize = function () {
        document.body.setScaledFont(0.35);
    }*/
+
 
 
 
