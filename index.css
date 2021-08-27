@@ -84,8 +84,8 @@ img {
  
   white-space: normal;
   background-color:blue;
-  overflow: hidden;
-  text-overflow: ellipsis; 
+  /*overflow: hidden;
+  text-overflow: ellipsis;*/
 }
 
 
