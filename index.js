@@ -134,7 +134,7 @@ function gifAlert(user, gif, img, audio, type) {
        <img class="bgImg bounce-animation" src="${bgImg}" />
       <img class="animated-gif bounce-animation" src="${gif}" />
       <div id="text-container">
-      <h1 class="text-shadows bounce-animation">${user + generateTitle[type]}</h1></div>
+      <span class="text-shadows bounce-animation">${user + generateTitle[type]}</span></div>
     `;
     container.style.opacity = 1;
 
