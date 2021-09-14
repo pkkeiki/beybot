@@ -49,7 +49,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
     new gifAlert(message, welcomeGif, bgImg, magicChime, command);
   }
   if (command == "hug") {
-    new gifAlert(user, hugGif, bgImg, magicChime, command);
+    new gifAlert(message, hugGif, bgImg, magicChime, command);
   }
   if (command == "panic") {
     new gifAlert(user, panicGif, bgImg, magicChime, command);
@@ -88,7 +88,7 @@ const generateTitle = {
   lurk: " is lurking hard!",
   rage: " is raging with keiki",
   welcome: " needs a welcome!",
-  hug: " sent + [message] + a hug!",
+  hug: "(user) sent + (message) + a hug!",
   panic: " is panicking with keiki",
   music: " stopped the music!"
 };
