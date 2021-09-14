@@ -88,7 +88,7 @@ const generateTitle = {
   lurk: " is lurking hard!",
   rage: " is raging with keiki",
   welcome: " needs a welcome!",
-  hug: "(user) sent + (message) + a hug!",
+  hug: " was given a hug!",
   panic: " is panicking with keiki",
   music: " stopped the music!"
 };
