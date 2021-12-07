@@ -18,7 +18,7 @@ const bgImg= "https://raw.githubusercontent.com/pkkeiki/beybot/gh-pages/TabTheme
 
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
-const tableFlipGif = "https://i.kym-cdn.com/photos/images/original/001/773/523/612.gif";
+const tableGif = "https://i.kym-cdn.com/photos/images/original/001/773/523/612.gif";
 const welcomeGif = "https://i.pinimg.com/originals/44/03/2d/44032df52abb777d335700443dd245c1.gif";
 const hugGif = "https://i.imgur.com/FCXa6Gx.gif";
 const rageGif = "https://images.squarespace-cdn.com/content/v1/5b23e822f79392038cbd486c/1617858446471-IOMNAG9GUPD9BMTVM3BJ/0f2fc14c5e3e9d653a20cb4c3a4af048.gif";
@@ -44,7 +44,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
     new gifAlert(user, lurkGif, bgImg, magicChime, command);
   }
   if (command == "tableFlip") {
-    new gifAlert(user, tableFlipGif, bgImg, magicChime, command);
+    new gifAlert(user, tableGif, bgImg, magicChime, command);
   }
    if (command == "rage") {
     new gifAlert(user, rageGif, bgImg, magicChime, command);
@@ -59,19 +59,23 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
     new gifAlert(user, panicGif, bgImg, magicChime, command);
   }
   
+  //For Music Playing Only
+  
   // Ok, ready!
-  if(command == "music") {
-    new gifAlert(user, lurkGif, bg, pewAudio, command);
+  //if(command == "music") {
+    //new gifAlert(user, lurkGif, bg, pewAudio, command);
     // Please don't stop the music
-    fetch("https://serve.onegraph.com/graphql?app_id=cdf2ebe1-3ad3-408a-81c0-1ed675d76411", {body: '{"doc_id": "e5e25f29-7862-4f23-8f53-8fb4373a0672"}', method: "POST"})
+    //fetch("https://serve.onegraph.com/graphql?app_id=cdf2ebe1-3ad3-408a-81c0-1ed675d76411", {body: '{"doc_id": "e5e25f29-7862-4f23-8f53-8fb4373a0672"}', method: "POST"})
 
-    const EVADE_THE_DMCA_BAN_LENGTH = 2500;
-    setTimeout(() => {
+    //const EVADE_THE_DMCA_BAN_LENGTH = 2500;
+    //setTimeout(() => {
       // Well, stop it after 2.5 seconds...
       // Pause the player
-      pauseSpotify();
-    }, EVADE_THE_DMCA_BAN_LENGTH)
-  }
+      //pauseSpotify();
+    //}, EVADE_THE_DMCA_BAN_LENGTH)
+  //}
+  
+  
 //Only for Broadcaster only
   //if (flags.broadcaster && command == "pizza") {
     //new gifAlert(message, pizzaGif, magicChime, command);
