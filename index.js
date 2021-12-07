@@ -43,7 +43,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   if (command == "lurk") {
     new gifAlert(user, lurkGif, bgImg, magicChime, command);
   }
-  if (command == "tableFlip") {
+  if (command == "tableflip") {
     new gifAlert(user, tableGif, bgImg, magicChime, command);
   }
    if (command == "rage") {
@@ -94,7 +94,7 @@ ComfyJS.onChat = (user, message, flags, self, extra) => {
 
 const generateTitle = {
   lurk: " is lurking hard!",
-  tableFlip: " FLIPPED OUT so hard!",
+  tableflip: " FLIPPED OUT so hard!",
   rage: " is raging with keiki",
   welcome: " needs a welcome!",
   hug: " was given a hug!",
