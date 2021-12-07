@@ -94,7 +94,7 @@ ComfyJS.onChat = (user, message, flags, self, extra) => {
 
 const generateTitle = {
   lurk: " is lurking hard!",
-  tableflip: " FLIPPED a table and left!",
+  tableflip: " FLIPPED a table!",
   rage: " is raging with keiki",
   welcome: " needs a welcome!",
   hug: " was given a hug!",
