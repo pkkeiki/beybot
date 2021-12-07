@@ -18,7 +18,7 @@ const bgImg= "https://raw.githubusercontent.com/pkkeiki/beybot/gh-pages/TabTheme
 
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
-const lurkGif = "https://i.kym-cdn.com/photos/images/original/001/773/523/612.gif";
+const tableFlipGif = "https://i.kym-cdn.com/photos/images/original/001/773/523/612.gif";
 const welcomeGif = "https://i.pinimg.com/originals/44/03/2d/44032df52abb777d335700443dd245c1.gif";
 const hugGif = "https://i.imgur.com/FCXa6Gx.gif";
 const rageGif = "https://images.squarespace-cdn.com/content/v1/5b23e822f79392038cbd486c/1617858446471-IOMNAG9GUPD9BMTVM3BJ/0f2fc14c5e3e9d653a20cb4c3a4af048.gif";
@@ -44,7 +44,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
     new gifAlert(user, lurkGif, bgImg, magicChime, command);
   }
   if (command == "tableFlip") {
-    new gifAlert(user, lurkGif, bgImg, magicChime, command);
+    new gifAlert(user, tableFlipGif, bgImg, magicChime, command);
   }
    if (command == "rage") {
     new gifAlert(user, rageGif, bgImg, magicChime, command);
