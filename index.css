@@ -26,7 +26,8 @@ img {
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
-  border: 1px solid;
+  
+  /*border: 1px solid;*/
 }
 
 .animated-gif{
@@ -100,7 +101,7 @@ img {
   line-height: normal;
   word-wrap: break-word;
   
-  background-color:blue;
+  /*background-color:blue;*/
   
   display: table-cell;
   /*display:block;*/
