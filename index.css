@@ -32,7 +32,7 @@ img {
 .animated-gif{
   position:absolute;
   top:120px;
-  left:110px;
+  left:100px;
   object-fit: cover;
   object-position: 50% 50%;
   width:400px;
@@ -80,7 +80,7 @@ img {
 }
 
 .text-shadows {
-  padding:1.2em;
+  padding:1.5em;
   width:500px;
   height:100px;
   /*text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
