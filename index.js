@@ -137,7 +137,6 @@ function gifAlert(user, gif, img, audio, type) {
     container.innerHTML = `
        <img class="bgImg bounce-animation" src="${bgImg}" />
       <img class="animated-gif bounce-animation" src="${gif}" />
-      <div class="text-parent">
       <div class="text-container">
       <h1 class="text-shadows bounce-animation">${user + generateTitle[type]}</span></h1>
      </div>
