@@ -26,6 +26,7 @@ img {
   text-align: center;
   word-wrap: break-word;
   animation: bounce-animation;
+  border: 1px solid;
 }
 
 .animated-gif{
