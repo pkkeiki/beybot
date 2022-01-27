@@ -59,7 +59,7 @@ img {
 
 /*.text-parent
 {
-  width:440px;
+  width:420px;
   height:100px;
   background: grey;
   padding: 15px;
@@ -71,7 +71,7 @@ img {
   
   position:absolute;
   top:270px;
-  left:45px;
+  left:48px;
   
   width: 100%;
   height: 100%;
