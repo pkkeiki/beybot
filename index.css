@@ -30,7 +30,7 @@ img {
 
 .animated-gif{
   position:absolute;
-  top:130px;
+  top:120px;
   left:110px;
   object-fit: cover;
   object-position: 50% 50%;
@@ -59,7 +59,7 @@ img {
 
 /*.text-parent
 {
-  width:500px;
+  width:450px;
   height:100px;
   background: grey;
   padding: 15px;
