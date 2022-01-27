@@ -59,7 +59,7 @@ img {
 
 /*.text-parent
 {
-  width:450px;
+  width:440px;
   height:100px;
   background: grey;
   padding: 15px;
@@ -70,7 +70,7 @@ img {
 {
   
   position:absolute;
-  top:290px;
+  top:270px;
   left:45px;
   
   width: 100%;
