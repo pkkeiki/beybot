@@ -30,7 +30,7 @@ img {
 
 .animated-gif{
   position:absolute;
-  top:135px;
+  top:130px;
   left:110px;
   object-fit: cover;
   object-position: 50% 50%;
@@ -70,7 +70,7 @@ img {
 {
   
   position:absolute;
-  top:296px;
+  top:290px;
   left:45px;
   
   width: 100%;
