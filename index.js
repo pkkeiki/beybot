@@ -55,11 +55,11 @@ const talkedRecently = new Set();
 
 
 ComfyJS.Init(twitchTvHandle);
-ComfyJS.onCommand = (user, command, message, flags, extra) => {
+ComfyJS.onCommand = (user, command, message, flags, extra, talkedRecently) => {
   console.log(`!${command} was typed in chat`);
 
   if (command == "lurk") {
-    new gifAlert(user, lurkGif, bgImg, magicChime, command, talkedRecently);
+    new gifAlert(user, lurkGif, bgImg, magicChime, command);
   }
   if (command == "tableflip") {
     new gifAlert(user, tableflipGif, bgImg, magicChime, command);
