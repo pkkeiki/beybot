@@ -108,7 +108,7 @@ const generateTitle = {
 
 const isOverflown = ({ clientHeight, scrollHeight }) => scrollHeight > clientHeight
 
-const resizeText = ({ element, elements, minSize = 5, maxSize = 10, step = 1, unit = 'px' }) => {
+const resizeText = ({ element, elements, minSize = 1, maxSize = 5, step = 1, unit = 'px' }) => {
   (elements || [element]).forEach(el => {
     let i = minSize
     let overflow = false
