@@ -1,6 +1,6 @@
 /* Config */
 const twitchTvHandle = "pk_keiki";
-const PAUSE_DURATION = 30 * 1000; // 30 seconds
+const PAUSE_DURATION = 50 * 1000; // 30 seconds
 const DISPLAY_DURATION = 10 * 1000; // 10 seconds
 
 /* DOM */
@@ -31,7 +31,8 @@ const wait = async duration => {
 
 
 // Only for Music purposes
-//const pauseSpotify = () => {
+//const 
+Spotify = () => {
   //fetch("https://serve.onegraph.com/graphql?app_id=cdf2ebe1-3ad3-408a-81c0-1ed675d76411", {body: '{"doc_id": "10fccd15-1a55-4a27-877a-a63106b4bd11"}', method: "POST"})
 //}
 
