@@ -1,6 +1,6 @@
 /* Config */
 const twitchTvHandle = "pk_keiki";
-const PAUSE_DURATION = 50 * 1000; // 30 seconds
+const PAUSE_DURATION = 30 * 1000; // 30 seconds
 const DISPLAY_DURATION = 10 * 1000; // 10 seconds
 
 /* DOM */
@@ -42,7 +42,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   console.log(`!${command} was typed in chat`);
 
   if (command == "lurk") {
-    new gifAlert(user, lurkGif, bgImg, magicChime, command);
+    new gifAlert(user, lurkGif, bgImg, magicChime, command, PAUSE_DURATION);
   }
   if (command == "tableflip") {
     new gifAlert(user, tableflipGif, bgImg, magicChime, command);
