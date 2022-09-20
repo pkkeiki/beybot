@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Fredoka One', cursive;
- font-size: calc(1em + 1vw);
+ font-size: calc(.5em + 1vw);
   font-weight: 400;
 
   display: grid;
@@ -92,8 +92,6 @@ img {
   /*letter-spacing: 0.4rem;*/
 
   font-family: 'Fredoka One', cursive;
-  /*font-size:6vh;*/
-  /*font-size:28px;*/
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
