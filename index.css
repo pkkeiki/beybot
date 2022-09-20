@@ -71,13 +71,14 @@ img {
 .text-container
 {
   
-  position:absolute;
+  position:relative;
   top:268px;
   left:60px;
   color:pink;
   width: 100%;
   height: 100%;
   border: 1px solid;
+  overflow: hidden;
 }
 
 .text-shadows {
