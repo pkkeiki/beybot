@@ -36,26 +36,10 @@ const wait = async duration => {
   //fetch("https://serve.onegraph.com/graphql?app_id=cdf2ebe1-3ad3-408a-81c0-1ed675d76411", {body: '{"doc_id": "10fccd15-1a55-4a27-877a-a63106b4bd11"}', method: "POST"})
 //}
 
-const talkedRecently = new Set();
-
-
-//Now in the command event add this:
-    if (talkedRecently.has(user)) {
-       console.log("Wait 1 minute before getting typing this again. - " + user);
-    } else {
-      
-      console.log('Hello! How are you?')
-      
-        talkedRecently.add(user);
-        setTimeout(() => {
-          // Removes the user from the set after a minute
-          talkedRecently.delete(user);
-        }, 60000);
-    }
 
 
 ComfyJS.Init(twitchTvHandle);
-ComfyJS.onCommand = (user, command, message, flags, extra, talkedRecently) => {
+ComfyJS.onCommand = (user, command, message, flags, extra) => {
   console.log(`!${command} was typed in chat`);
 
   if (command == "lurk") {
