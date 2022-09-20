@@ -3,6 +3,7 @@ const twitchTvHandle = "pk_keiki";
 const PAUSE_DURATION = 30 * 1000; // 30 seconds
 const DISPLAY_DURATION = 10 * 1000; // 10 seconds
 
+
 /* DOM */
 const container = document.querySelector(".alerts");
 const img = new Image();
@@ -34,6 +35,23 @@ const wait = async duration => {
 //const Spotify = () => {
   //fetch("https://serve.onegraph.com/graphql?app_id=cdf2ebe1-3ad3-408a-81c0-1ed675d76411", {body: '{"doc_id": "10fccd15-1a55-4a27-877a-a63106b4bd11"}', method: "POST"})
 //}
+
+const talkedRecently = new Set();
+
+
+//Now in the command event add this:
+    if (talkedRecently.has(user)) {
+       console.log("Wait 1 minute before getting typing this again. - " + user);
+    } else {
+      
+      console.log('Hello! How are you?')
+      
+        talkedRecently.add(user);
+        setTimeout(() => {
+          // Removes the user from the set after a minute
+          talkedRecently.delete(user);
+        }, 60000);
+    }
 
 
 ComfyJS.Init(twitchTvHandle);
