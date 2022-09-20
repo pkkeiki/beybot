@@ -70,11 +70,11 @@ img {
 
 .text-container
 {
-  
+  overflow: hidden;
   position:absolute;
   top:268px;
   left:60px;
-  
+  color:pink;
   width: 100%;
   height: 100%;
   border: 1px solid;
@@ -83,7 +83,7 @@ img {
 .text-shadows {
   padding:1.2em;
   width:450px;
-  height:70px;
+  height:100px;
   /*text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
   /*font-size: calc(.35rem + 3vw);*/
