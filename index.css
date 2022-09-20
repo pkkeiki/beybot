@@ -74,10 +74,10 @@ img {
   position:relative;
   top:268px;
   left:60px;
-  color:pink;
-  width: 50%;
-  height: 100%;
-  border: 1px solid;
+  background-color:pink;
+  width: 30px;
+  height: 40px;
+  /*border: 1px solid;*/
   overflow: hidden;
 }
 
@@ -90,7 +90,7 @@ img {
   /*font-size: calc(.35rem + 3vw);*/
    /*animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;*/
   /*letter-spacing: 0.4rem;*/
-  
+  position:absolute;
   font-family: 'Fredoka One', cursive;
   font-size:3.6vw;
   /*font-size:28px;*/
