@@ -75,7 +75,7 @@ img {
   top:268px;
   left:60px;
   background-color:pink;
-  width: 700px;
+  width: 600px;
   height: 200px;
   /*border: 1px solid;*/
   overflow: hidden;
@@ -83,7 +83,7 @@ img {
 
 .text-shadows {
   padding:1.2em;
-  width:500px; 
+  width:100%; 
   height:70px;
   /*text-shadow: 3px 3px 0 #f49b90, 6px 6px 0 #f28b7d,
     9px 9px #f07a6a, 12px 12px 0 #f07a6a;*/
