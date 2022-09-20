@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Fredoka One', cursive;
- font-size: calc(.2em + 3vh);
+ font-size: calc(.2em + 2vh);
   font-weight: 400;
 
   display: grid;
