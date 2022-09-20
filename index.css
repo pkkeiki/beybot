@@ -76,7 +76,7 @@ img {
   left:60px;
   background-color:pink;
   width: 500px;
-  height: 150px;
+  height: 120px;
   /*border: 1px solid;*/
   overflow: hidden;
 }
@@ -92,7 +92,7 @@ img {
   /*letter-spacing: 0.4rem;*/
 
   font-family: 'Fredoka One', cursive;
-  font-size:3vw;
+  font-size:3vh;
   /*font-size:28px;*/
   font-weight: 400;
   text-transform: uppercase;
