@@ -73,7 +73,7 @@ img {
 {
   
   position:relative;
-  top:268px;
+  top:280px;
   left:60px;
   background-color:pink;
   width: 500px;
@@ -104,7 +104,7 @@ img {
   background-color:blue;
   
   /*display: table-cell;*/
-  /*display:block;*/
+  display:inline-block;
   /*white-space: normal;*/
   overflow: hidden;
   vertical-align: middle;
