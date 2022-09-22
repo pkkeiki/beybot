@@ -92,7 +92,7 @@ img {
    /*animation: shadows 1.5s ease-in infinite, move 1.5s ease-in infinite;*/
   /*letter-spacing: 0.4rem;*/
 
-  white-space: normal;
+  white-space: pre-wrap;
   text-overflow: ellipsis;
   
   
