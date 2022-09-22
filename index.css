@@ -3,6 +3,7 @@
 body {
   font-family: 'Fredoka One', cursive;
  font-size: 2vw;
+  /*calc(3em + 2vh)*/
   font-weight: 400;
 
   display: grid;
