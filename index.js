@@ -46,7 +46,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   if (command == "lurk") {
     new gifAlert(user, lurkGif, bgImg, magicChime, command);
   }
-  if (command == "Halloween") {
+  if (command == "halloween") {
     new gifAlert(user, halloweenGif, bgImg, magicChime, command);
   }
   if (command == "tableflip") {
