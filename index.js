@@ -19,6 +19,7 @@ const bgImg= "https://raw.githubusercontent.com/pkkeiki/beybot/gh-pages/playing-
 
 /* GIFs */
 const lurkGif = "https://i.imgur.com/q8kDLPw.gif";
+const halloweenGif = "https://media.tenor.com/Tr4svi_j4zEAAAAC/skeleton-dancing.gif";
 const tableflipGif = "https://i.kym-cdn.com/photos/images/original/001/773/523/612.gif";
 const welcomeGif = "https://i.pinimg.com/originals/44/03/2d/44032df52abb777d335700443dd245c1.gif";
 const hugGif = "https://i.imgur.com/FCXa6Gx.gif";
@@ -44,6 +45,9 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
 
   if (command == "lurk") {
     new gifAlert(user, lurkGif, bgImg, magicChime, command);
+  }
+  if (command == "Halloween") {
+    new gifAlert(user, halloweenGif, bgImg, magicChime, command);
   }
   if (command == "tableflip") {
     new gifAlert(user, tableflipGif, bgImg, magicChime, command);
@@ -96,6 +100,7 @@ ComfyJS.onChat = (user, message, flags, self, extra) => {
 
 const generateTitle = {
   lurk: " is lurking hard!",
+  halloween: " says Happy Halloween!",
   tableflip: " FLIPPED your <br>favorite table!",
   rage: " is raging with keiki",
   welcome: " needs a welcome!",
